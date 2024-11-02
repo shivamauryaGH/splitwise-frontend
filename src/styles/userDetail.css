@@ -1,0 +1,98 @@
+
+   
+
+/* Container styling for the user details */
+.user-details-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Header styling */
+.user-details-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+/* Styling for each user detail row */
+.user-detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Label styling */
+.user-detail-label {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Value styling */
+.user-detail-value {
+  color: #777;
+}
+
+/* Button styling */
+.add-expense-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-expense-btn:hover {
+  background-color: #45a049;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .user-detail-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-detail-label, .user-detail-value {
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .add-expense-btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-details-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .user-details-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .add-expense-btn {
+    font-size: 0.85rem;
+  }
+}
+
+.add-expense-container {
+  margin-top: 20px; /* Space above the button */
+  text-align: center; /* Center the button */
+}

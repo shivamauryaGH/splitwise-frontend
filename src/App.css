@@ -1,0 +1,9 @@
+.header {
+    text-align: center;        /* Center align the text */
+    font-weight: bold;        /* Make the text bold */
+    font-size: 2.5rem;        /* Adjust the font size as needed */
+    margin: 20px 0;          /* Add some margin to the top and bottom */
+    color: #333;              /* Set a text color */
+    position: relative;        /* Position relative for centering if needed */
+    top: 0;                   /* Optional: adjust position if needed */
+  }
